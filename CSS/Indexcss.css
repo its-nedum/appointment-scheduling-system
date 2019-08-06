@@ -1,0 +1,234 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: BankGothic;
+	font-size: 18px;
+	background: skyblue;
+
+}
+
+#cont{
+	background: white;
+	border-radius: 5px;
+}
+
+#nav{
+	
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color:darkblue; 
+	
+}
+#wrapper, #register, #dashboard{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#nav ul{
+	text-align: right;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+#nav ul li{
+
+	display: inline-block;
+}
+#nav ul li a:hover{
+	z-index: 100;
+	background-color: white; /*#333*/
+}
+#nav ul li a,visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: black;
+	text-decoration: none;
+	z-index: 100;
+}
+#nav ul li:hover ul{
+	display: block;
+	z-index: 100;
+}
+
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: midnightblue;
+}
+#nav ul ul li{
+	display: block;
+}
+#nav ul ul li a,visited{
+	color: white;
+}
+#nav ul ul li a:hover{
+	color: black;
+	z-index: 100;
+}
+
+/* register div */
+#register{
+	text-align: left;
+}
+
+/* dashbozrd div */
+#dashboard ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+#dashboard ul li a,visited{
+	color: black;
+	text-decoration: none;
+}
+
+/*heading tag color*/
+h1,h2,h4,h4,h5,h6{
+	color: darkblue;
+}
+h3{
+	color:white;
+}
+
+/*textarea resize disabled*/
+textarea{
+	resize: none;
+	border-radius: 5px;
+}
+hr{
+	color: black;
+}
+
+/*info pics at home*/
+.padtext{
+	padding-left: 15px;
+}
+
+/*Carousel image size*/
+#carol img{
+	width: 100%;
+	height: 400px;
+}
+
+/*Small image styles*/
+.small_image{
+
+	border-image: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.small_image_wrap{
+	border: 1px solid silver;
+	margin: 10px;
+}
+
+#equal_image{
+	height:172px;
+}
+#equal_image2{
+	height:170px;
+}
+
+#big_footer{
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid;
+	background-color: darkblue;
+	color: white;
+	border-radius: 5px;
+
+}
+
+#footer{
+	width: 100%;
+	height: 30px;
+	margin-top: 70px;
+	border-top: 1px solid;
+	color: white;
+}
+
+/*nav-bar icon edit*/
+.nav-icon{
+	width: 30px;
+}
+
+
+.iconz{
+	width: 7%;
+	float: left;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/*contact us icon edit*/
+.t-row{
+	width: 50%;
+	padding: 10px;
+	
+}
+
+.container-form{
+	width:100%;
+	padding: 5px;
+	margin: auto; 
+	border:none;
+	margin: 10px;
+}
+.img-table{
+	margin: auto;
+	padding: 25px;
+	margin:10px;
+	border:none;
+
+}
+.input-text{
+	width: 93%;
+	padding: 10px;
+	float: left;
+	font-size: 18px;
+	border:none;
+}
+.colum-text{
+	background-color: skyblue;
+	padding: 0px;
+	border:1px solid skyblue;
+}
+/*medical form picture position*/
+#output-img{
+	width: 20%;
+	float: right;
+	margin-left: 850px;
+	position: absolute;
+	margin-top: -60px;
+}
+
+.position1{
+	float: right;
+	position: relative;
+}
+.output-img{
+	width: 20%;
+	padding: 5px;
+	float: right;
+}
+
+.position{
+	float: right;
+	position: absolute;
+
+}
+
+
+
+
+
+
+

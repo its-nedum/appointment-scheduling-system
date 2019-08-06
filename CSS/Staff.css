@@ -1,0 +1,114 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.dashboard-container{
+  width: 115%;
+  background-color:#fff;
+  min-height: 500px;
+  box-sizing: border-box;
+  padding:5px;
+  margin-left: -70px;
+  margin-top: 5px;
+
+}
+.side-bar-left-container{
+  width: 20%;
+  float: left;
+  background-color: darkblue;
+  box-sizing: border-box;
+  min-height: 490px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.side-bar-right-container{
+  width: 79%;
+  float: right;
+  background-color: skyblue;
+  box-sizing: border-box;
+  min-height: 490px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.dash-text-left{
+  text-decoration: none;
+  color: #fff !important; 
+  text-align: left;
+  padding: 10px;
+  font-family: sans-serif !important;
+  font-size: 13px;
+}
+.side-bar-left-container ul{
+  list-style: none;
+  text-decoration: none;
+}
+.side-bar-left-container li:hover{
+  background:#D2D2D2 ;
+}
+.side-bar-left-container li {
+  text-decoration: none;
+  font-size: 20px;
+  border:1px solid  #A49EC5;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.side-bar-left-container a{
+  line-height: 2.1em;
+  color: #fff;
+  text-decoration:none;
+}
+.inside-bar-container{
+  width: 30%;
+  min-height: 200px;
+  background-color:#fff;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+/*the php echo */
+.inside-bar-container-top{
+  width: 100%;
+  min-height: 30px;
+  padding: 5px;
+  color:#fff;
+  background-color:skyblue;
+  box-sizing: border-box;
+}
+.welcome-text{
+  text-align: right;
+  padding-right: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.dash-icon-display{
+  width: 10%;
+  float: left;
+  margin: 5px;
+}
+.inside-icon-display{
+  width: 40%;
+  margin: 5px;
+  margin-left: 60px;
+}
+.link-list-txt{
+  font-size: 25px;
+  color: skyblue !important;
+  padding:20px;
+  text-align: center;
+}
+h2 .dash-header-text{
+  text-align: left;
+  margin-left: -50px;
+}
+
+.image-add{
+  width: 5%;
+  float: right;
+  border-radius: 100%;
+  padding: 1px;
+  background: #fff;
+  margin-top: -40px;
+  margin-right: -5px;
+}

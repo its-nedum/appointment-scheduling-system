@@ -1,0 +1,8 @@
+
+.cover{
+	border: 1px solid white;
+	padding: 40px;
+	width: 100%;
+	background-color: skyblue;
+	border-radius: 5px;
+}
